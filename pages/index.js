@@ -49,5 +49,112 @@ export default function Home() {
 
 
 </body>
+<style>
+
+        .WhoAreWeText {
+                margin-left: 28.3%;  
+
+        }
+        .WhoAreWe { 
+                margin-bottom: 35px;
+                margin-left: 43.5%;
+                font-size: 1.5em;  
+        }
+        .WelcomeTitlr {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+background-image: url("hackerwallpaper.jpg");
+color: white;
+text-align: center;
+font-size: 2.5em;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+body {
+font-family: 'Outfit', sans-serif;
+background-color: #000000;
+color: white;
+}
+
+.button1:hover {
+color: white;
+background-color: black;
+}
+.button2:hover {
+color: white;
+background-color: black;
+}
+.button2 { 
+position: absolute;
+border-radius: 5px;
+margin-left: 42.24%;
+border: solid 1px black;
+width: 12%;
+height: 3%; 
+margin-top: 38px;
+padding: 0%;
+position: absolute;
+background-color: white;
+font-family: 'Balsamiq Sans', cursive;
+}
+.button1 {
+position: absolute;
+border-radius: 5px;
+margin-left: 41.8%; 
+margin-top: 15px;
+border: solid 1px black;
+width: 13%; 
+height: 3%;
+padding: 0%;
+position: absolute; 
+background-color: white;
+font-family: 'Balsamiq Sans', cursive;  
+}
+
+.title1:hover{
+animation-name: title1bg;
+animation-iteration-count: infinite; 
+animation-duration: 3.5s;
+}
+.title1 {
+background-color: black;
+font-family: 'Secular One', sans-serif; 
+padding: 0%;
+font-size: 1em;
+color: white;
+text-align: center;
+border: solid 1px black;
+width: 16%; 
+text-align: center; 
+margin-left: 40%;
+margin-top: 10px; 
+}
+@keyframes title1bg{
+0% { color: black; background-color: black; }
+10% { color: gray; background-color: ; } 
+15% { color: pink; background-color: black; }
+20% { color: #FF0000; background-color: black; }
+35% { color: #FF8000; background-color: black; }
+40% { color: ; background-color: black; }
+45% { color: ; background-color: black; }
+50% { color: ; background-color: black; }
+55% { color: ; background-color: black; }
+60% { color: ; background-color: black; }
+65% { color: ; background-color: black; }
+70% { color: ; background-color: black; }
+75% { color: ; background-color: black; }
+80% { color: #FF8000; background-color: black; }
+85% { color: #FF0000; background-color: black; }
+90% { color: pink; background-color: black; }
+95% { color: gray; background-color: ; }
+100% { color: black; background-color: black; }
+}
+
+
+
+
+</style>
+
   )
 }
